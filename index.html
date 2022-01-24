@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tejas Kumar</title>
     <link href="style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+    </style>
 </head>
+
 <body>
-    <nav>
-        <ul>
-        <li><a href="#">Tejas</a></li>
-        <li class="home active"><a href="#">Home</a></li>
-        <li><a href="hobbies.html">My Hobbies</a></li>
-        <li style="margin-right: 100px;"><a href="skills.html">Skills</a></li>
-        </ul>
-    </nav>
-    <div class="grid">
-        <div class="intro">
-            <h1>Hi, I am Tejas Kumar</h1>
-            <h2>Web Devloper</h2>
-            <p>I am a first year CSE student at Netaji Subash University of Technology.</p>
-            <button><a href="hobbies.html">My Hobbies</a></button>
-            <button><a href="skills.html">My Skills</a></button>
-        </div>  
-        <div class="img">
-            <img src="./images/tejas.jpeg" alt="Tejas Kumar">
+    <section class="section1">
+        <div class="nav">
+            <div>
+                <a href="#">Tejas</a>
+            </div>
+            <div>
+                <ul id="navigation">
+                    <li class="home active"><a href="#">Home</a></li>
+                    <li><a href="#">Hobbies</a></li>
+                    <li style="margin-right: 100px;"><a href="#">Skills</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
+        <h1 class="header">Hi, I'm Tejas Kumar</h1>
+        <div class="home-wrapper">
+            <div class="left-column">
+                <img id="profile-pic" src="images/tejas.jpeg" alt="Tejas Image">
+            </div>
+            <div class="right-column">
+                <div id="about-me-shadow">
+                    <div id="about-me">
+                        <div id="corner-tl" class="corner"></div>
+                        <div id="corner-tr" class="corner"></div>
+                        <h2>About Me</h2>
+                        <p>I am a student at Netaji Subash University of Technology, Delhi. Web development is one my
+                            passions</p>
+                        <div id="corner-bl" class="corner"></div>
+                        <div id="corner-br" class="corner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div>
+            <p>Hobbies</p>
+        </div>
+    </section>
+    <section class="section1">
+        <div>
+            <p>Skills</p>
+        </div>
+    </section>
 </body>
+
 </html>
