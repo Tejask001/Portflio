@@ -46,7 +46,7 @@ h1, h2, h3, strong {
 	font-weight: 300;
 }
 
-p, li, span, a{
+p, li, span, a, button{
     color: var(--secondaryText);
     font-family: 'Roboto Mono', monospace;
 }
@@ -89,7 +89,7 @@ ul {
 .home-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 26em;
+    height: 27em;
 }
 
 .nav{
@@ -110,9 +110,9 @@ ul {
    margin-left: 50px;
 }
 
-#navigation .active {
+/* #navigation .active {
     border-bottom: 1.75px solid #17a2b8;
-}
+} */
 
 /* .left-column {
     padding-top: 10px;
@@ -123,6 +123,7 @@ ul {
     display: block;
     margin: 50px auto 0;
     height: 200px;
+    border: 2px solid #17a2b8;
     box-shadow: -13px -13px 0px 0px var(--aboutMeShadow);
 }
 
