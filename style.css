@@ -111,7 +111,7 @@ ul {
 }
 
 #navigation .active {
-    border-bottom: 1px solid var(--primaryText);
+    border-bottom: 1.75px solid #17a2b8;
 }
 
 /* .left-column {
@@ -125,6 +125,32 @@ ul {
     height: 200px;
     box-shadow: -13px -13px 0px 0px var(--aboutMeShadow);
 }
+
+#section-buttons {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+button {
+    background: var(--aboutMeBg);
+    border: 2px solid #17a2b8;
+    color: var(--secondaryText);
+    padding: 1em 2em;
+    transition: 0.17s ease-in;
+}
+
+button:hover {
+    
+    border: 2px solid #17a2b8;
+    color: var(--secondaryText);
+    box-shadow: -8px -8px var(--aboutMeShadow);
+    transform: translateX(2px) translateY(2px);
+    cursor: pointer;
+}
+
 
 .right-column {
     display: grid;
