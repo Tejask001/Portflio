@@ -52,6 +52,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, strong {
@@ -107,9 +108,22 @@ ul {
 }
 
 .section3 {
-    background-color: var(--secondaryColor);
+    /* background-color: var(--secondaryColor); */
+    background-color: #203141;
+    height: 43em;
 	border-bottom:1px solid var(--borderColor);
 	overflow:auto;
+}
+
+.section3 span {
+    color: var(--secondaryText);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.section3 h1 {
+    color: var(--primaryText);
+    font-family: 'Russo One', sans-serif;
+	font-weight: 300;
 }
 
 
@@ -264,4 +278,61 @@ button:hover {
 }
 .hobby span {
     font-size: 30px;
+}
+
+.section3 i {
+    font-size: 70px;
+}
+
+.section3 span {
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    margin-bottom: 60px;
+}
+
+#html-icon {
+    color: #f06529;
+}
+
+#css-icon {
+    color: #2965f1;
+}
+
+#js-icon {
+    color: #f0db4f;
+}
+
+.progress-bar {
+    border: 5px solid #e9ecef;
+    width: 60vw;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#html-progress {
+    height: 20px;
+    width: 75%;
+    background-color: #e9ecef;
+}
+
+#css-progress {
+    height: 20px;
+    width: 65%;
+    background-color: #e9ecef;
+}
+
+#javascript-progress {
+    height: 20px;
+    width: 55%;
+    background-color: #e9ecef;
 }
