@@ -1,2 +1,2 @@
 # Portfolio
-[Portfolio Website](https://tejask001.github.io/Portflio/)
+[Portfolio Website](https://tejask001.github.io/Portfolio/)
