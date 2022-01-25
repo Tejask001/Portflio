@@ -140,6 +140,9 @@ ul {
 }
 
 .nav{
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
