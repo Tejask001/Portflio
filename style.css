@@ -146,6 +146,10 @@ ul {
     background-color: var(--secondaryColor);
 }
 
+.nav a {
+    font-size: 20px;
+}
+
 #navigation {
     margin: 0;
     padding: 10px;
