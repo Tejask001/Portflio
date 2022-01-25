@@ -14,7 +14,8 @@
 	--buttonColor:#17a2b8;
 } */
 
-:root{
+/* :root{
+    //purple
 	--primaryColor:#46344E;
 	--secondaryColor:#382a3f;
 
@@ -30,8 +31,21 @@
 
 
 	--buttonColor:#8534a3;
+} */
 
+:root{
+	--primaryColor:#15202B;
+	--secondaryColor:#192734;
 
+	--borderColor:#164D56;
+
+	--primaryText:#fff;
+	--secondaryText:#eeeeee;
+
+	--aboutMeBg:rgb(25, 39, 52, 0.8);
+	--aboutMeShadow:#111921;
+
+	--buttonColor:#17a2b8;
 }
 
 
@@ -75,10 +89,29 @@ ul {
 }
 
 .section2 {
+    /* background-color: var(--secondaryColor); */
+    background-color: #e9ecef;
+	border-bottom:1px solid var(--borderColor);
+	overflow:auto;
+}
+
+.section2 span {
+    color: var(--secondaryColor);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.section2 h1 {
+    color: var(--primaryColor);
+    font-family: 'Russo One', sans-serif;
+	font-weight: 300;
+}
+
+.section3 {
     background-color: var(--secondaryColor);
 	border-bottom:1px solid var(--borderColor);
 	overflow:auto;
 }
+
 
 .header {
     display: flex;
@@ -205,4 +238,30 @@ button:hover {
 #corner-br {
     bottom: -5px;
     right: -5px;
+}
+
+.section2 {
+    height: 40em;
+}
+.section2 i {
+    font-size: 100px;
+    color: var(--secondaryColor);
+}
+
+.hobbies-wrapper {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column;
+}
+
+.hobby i {
+    margin-bottom: 50px;
+}
+.hobby span {
+    font-size: 30px;
 }
