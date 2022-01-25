@@ -300,6 +300,9 @@ button:hover {
     margin-bottom: 60px;
 }
 
+.skill-icon {
+    margin-bottom: 12px;
+}
 #html-icon {
     color: #f06529;
 }
