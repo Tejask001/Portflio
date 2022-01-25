@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+    .nav {
+        height: 50px;
+    }
+    #navigation {
+      display: flex;
+    }
+    #navigation li {
+        margin-right: 0;
+    }
+    #nav-logo {
+        display: inline;
+    }
+    #name-nav {
+        margin-left: 20px;
+    }
+
+    /* intro-section */
+    .header {
+        margin-top: 100px;
+    }
+    .home-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #section-buttons {
+        margin-left: 250px;
+    }
+
+    #about-me-shadow {
+        margin-top: 50px;
+        margin-left: 175px;
+    }
+
+    /* hobbies-section */
+    .section2 i {
+        font-size: 75px;
+    }
+
+    .hobby span {
+        font-size: 20px;
+    }
+
+/* mobile view */
+@media screen and (max-width: 576px){
+    #section-buttons {
+        /*intro section*/
+        margin-left: 150px;
+    }
+
+    #about-me {
+        width: 250px;
+    }
+
+    #about-me-shadow {
+        width: 250px;
+        margin-left: 150px;
+    }
+}
