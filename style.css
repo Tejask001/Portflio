@@ -196,6 +196,7 @@ ul {
 }
 
 button {
+    font-size: 16px;
     border-radius: 5px;
     background-color: #253a4e;
     border: 2px solid #17a2b8;
@@ -333,7 +334,7 @@ button:hover {
     border: 5px solid #e9ecef;
     width: 60vw;
     height: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 #html-progress {
