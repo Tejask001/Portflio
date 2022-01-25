@@ -41,20 +41,46 @@
     .hobby span {
         font-size: 20px;
     }
+}
 
 /* mobile view */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 460px){
     #section-buttons {
         /*intro section*/
-        margin-left: 150px;
+        margin-left: 18%;
     }
 
     #about-me {
-        width: 250px;
+        width: 200px;
     }
 
     #about-me-shadow {
-        width: 250px;
-        margin-left: 150px;
+        width: 200px;
+        margin-left: 12%;
+    }
+
+    /* hobbies section */
+    .header {
+        text-align: center;
+    }
+    .hobbies-wrapper {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .hobby {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hobby-name {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    /*skills section */
+    .section3 span {
+        font-size: 25px;
     }
 }
