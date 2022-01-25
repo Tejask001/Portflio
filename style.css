@@ -42,7 +42,7 @@
 	--primaryText:#fff;
 	--secondaryText:#eeeeee;
 
-	--aboutMeBg:rgb(25, 39, 52, 0.8);
+	--aboutMeBg:rgba(25, 39, 52, 0.8);
 	--aboutMeShadow:#111921;
 
 	--buttonColor:#17a2b8;
@@ -183,7 +183,8 @@ ul {
 }
 
 button {
-    background: var(--aboutMeBg);
+    border-radius: 5px;
+    background-color: #253a4e;
     border: 2px solid #17a2b8;
     color: var(--secondaryText);
     padding: 1em 2em;
