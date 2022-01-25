@@ -57,17 +57,16 @@ html, body {
 
 /* scrollbar */
 body::-webkit-scrollbar {
-    width: 8px;               /* width of the entire scrollbar */
+    width: 8px;     
   }
   
   body::-webkit-scrollbar-track {
-    background: var(--secondaryColor);        /* color of the tracking area */
+    background: var(--secondaryColor);
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: #e9ecef;    /* color of the scroll thumb */
-    border-radius: 2px;       /* roundness of the scroll thumb */
-    /* border: 3px solid orange;  creates padding around scroll thumb */
+    background-color: #e9ecef;
+    border-radius: 2px;
   }
 /* scrollbar end */
 
