@@ -122,7 +122,7 @@ ul {
 .home-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 27em;
+    height: 31em;
 }
 
 .nav{
@@ -241,7 +241,7 @@ button:hover {
 }
 
 .section2 {
-    height: 40em;
+    height: 43em;
 }
 .section2 i {
     font-size: 100px;
@@ -249,7 +249,7 @@ button:hover {
 }
 
 .hobbies-wrapper {
-    margin-top: 150px;
+    margin-top: 180px;
     display: flex;
     justify-content: space-evenly;
 }
