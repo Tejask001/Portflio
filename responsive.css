@@ -16,12 +16,22 @@
     }
 
     /* intro-section */
+    .section1 {
+        height: 1000px;
+    }
     .header {
         margin-top: 100px;
     }
     .home-wrapper{
         display: flex;
         flex-direction: column;
+    }
+
+    .right-column {
+        padding-bottom: 50px;
+    }
+    .left-column {
+    padding-bottom: 100px;
     }
     
     #section-buttons {
@@ -45,8 +55,16 @@
 
 /* mobile view */
 @media screen and (max-width: 460px){
+    /*intro section*/
+    .section1 {
+        height: 1200px;
+    }
+
+    .left-column {
+        padding-top: 100px;
+    }
+
     #section-buttons {
-        /*intro section*/
         margin-left: 18%;
     }
 
@@ -56,7 +74,7 @@
 
     #about-me-shadow {
         width: 200px;
-        margin-left: 12%;
+        margin-left: 18%;
     }
 
     /* hobbies section */

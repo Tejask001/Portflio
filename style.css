@@ -245,6 +245,7 @@ button:hover {
     height: 180px;
     padding-top: 40px;
     padding-left: 40px;
+    margin-left: 200px;
 }
 
 #about-me {
@@ -349,7 +350,7 @@ button:hover {
     border: 5px solid #e9ecef;
     width: 60vw;
     height: 20px;
-    border-radius: 20px;
+    border-radius: 8px;
 }
 
 #html-progress {
