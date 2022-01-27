@@ -185,14 +185,28 @@ ul {
    margin-left: 50px;
 }
 
-/* #navigation .active {
-    border-bottom: 1.75px solid #17a2b8;
-} */
+#skills {
+    margin-right: 100px;
+}
+/* toggle-button mobile nav */
+.toggle-button {
+    display: none;
+    position: absolute;
+    top: .7rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
 
-/* .left-column {
-    padding-top: 10px;
-    padding-bottom: 50px;
-} */
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+/* toggle button end */
 
 #profile-pic {
     display: block;

@@ -22,33 +22,30 @@
             <div id="nav-logo">
                 <a href="#" id="name-nav">Tejas Kumar</a>
             </div>
-            <div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="nav-items">
                 <ul id="navigation">
-                    <li class="home"><a href="#">Home</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                    <li style="margin-right: 100px;"><a href="#skills">Skills</a></li>
+                    <li class="home navItem"><a href="#">Home</a></li>
+                    <li class="navItem"><a href="#hobbies">Hobbies</a></li>
+                    <li class="navItems"><a href="#skills">Skills</a></li>
                 </ul>
             </div>
         </div>
         <h1 class="header">Hi, I'm Tejas Kumar</h1>
         <div class="home-wrapper">
-            <!-- <div class="left-column">
-                <img id="profile-pic" src="images/tejas.jpeg" alt="Tejas Image">
-                <div id="section-buttons">
-                    <a href="#hobbies"><button>Hobbies</button></a>
-                    <a href="#skills"><button>Skills</button></a>
-                </div>
-            </div> -->
-
-
             <div class="right-column">
                 <div id="about-me-shadow">
                     <div id="about-me">
                         <div id="corner-tl" class="corner"></div>
                         <div id="corner-tr" class="corner"></div>
                         <h2>About Me</h2>
-                        <p>I am a student at Netaji Subash University of Technology, Delhi. Web development is one my
-                            passions</p>
+                        <p>I am a 1st Year CSE student at Netaji Subash University of Technology, Delhi. Web development
+                            is one my
+                            passions.</p>
                         <div id="corner-bl" class="corner"></div>
                         <div id="corner-br" class="corner"></div>
                     </div>
@@ -143,6 +140,16 @@
             </div>
         </div>
     </section>
+
+    <script>
+        const toggleButton = document.getElementsByClassName("toggle-button")[0];
+
+        const navbarItems = document.getElementById("navigation");
+
+        toggleButton.addEventListener('click', () => {
+            navbarItems.classList.toggle('active');
+        })
+    </script>
 </body>
 
 </html>
